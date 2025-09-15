@@ -1,11 +1,11 @@
-# 🩺 Pneumonia Detection using CNN (TensorFlow & Keras)
+# 🩺Pneumonia Detection using CNN (TensorFlow & Keras)
 
 This project demonstrates a **Convolutional Neural Network (CNN)** built with **TensorFlow & Keras** to detect **pneumonia** from chest X-ray images.  
 The model is trained on the [Kaggle Chest X-Ray Pneumonia Dataset](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia).
 
 ---
 
-## 🚀 Workflow
+##  Workflow
 
 ### 1. Data
 - Dataset contains **Pneumonia** and **Normal** chest X-rays.  
@@ -35,7 +35,7 @@ Implemented a **CNN** with:
 - Metric: **Accuracy**  
 - Epochs: 10–12  
 - Batch size: 32  
-
+  
 Training & Validation Performance:
 
 ![Accuracy & Loss](assets/training_results.png)
@@ -56,12 +56,13 @@ Training & Validation Performance:
 - The model correctly identifies most pneumonia cases.  
 - Small misclassifications occur, but results are promising for clinical decision support.  
 
+- Some Correct Predictions :
+
+![Confusion Matrix](assets/correct_predictions.png)
+
+- Some Incorrect Predictions :
+
+![Confusion Matrix](assets/incorrect_predictions.png)
+
 ---
 
-## ⚡ Deployment
-This model is deployed with **Gradio** for interactive predictions.  
-
-To run locally:
-```bash
-pip install gradio tensorflow numpy pillow
-python app.py
