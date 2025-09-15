@@ -30,10 +30,10 @@ Implemented a **CNN** with:
 - Final **Sigmoid** layer for binary classification (Pneumonia vs Normal)  
 
 ### 4. Training
-- Optimizer: **Adam**  
+- Optimizer: **Rmsprop**  
 - Loss: **Binary Crossentropy**  
-- Metric: **Accuracy**  
-- Epochs: 10–12  
+- Metric: **Accuracy, F1 score, Recall**  
+- Epochs: 12  
 - Batch size: 32  
   
 Training & Validation Performance:
